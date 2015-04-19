@@ -1,0 +1,73 @@
+/**
+ * General elements
+ */
+body {
+  color: #333;
+  font-family: arial, sans-serif;
+}
+ 
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+}
+ 
+ 
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  border: 9px solid #000;
+  border-radius: 100px;
+  
+}
+ 
+.sitelogo {
+  width: 150px;
+  padding-top: 6px;
+  padding-left: 39px;
+} 
+
+.sitetitle {
+  position: absolute;
+  top: 21px;
+  left: 222px;
+  font-size: 72px;
+}
+ 
+.siteslogan {
+  position: absolute;
+  top: 91px;
+  left: 226px;
+  font-style: italic;
+}
+ 
+.siteslogan strong {
+  font-size: 22px;
+}
+ 
+ 
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+ 
+ 
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+ 
+.sitefooter {
+  color: #666;
+}

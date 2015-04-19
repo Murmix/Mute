@@ -1,0 +1,7 @@
+/* TEAM */                            
+Your title: Daniel Molnar
+Site: http://www.student.bth.se/~damo15/oophp/
+Location: Budapest, Hungary
+/* SITE */
+Last update: 2015-04-18 
+Details: This site is a school project for Blekinge Tekniska Högskola.

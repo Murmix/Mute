@@ -19,7 +19,7 @@
     <?php echo CNavigation::GenerateMenu($topmenu, 'top-menu'); ?>      
     <div id='main'><?=$main?></div>
     <div id='footer'>
-      <footer>Copyright &copy; 2015. Powered by Murmix&#9733;Template.</footer>
+      <footer>Copyright &copy; 2015. Powered by Mute: Murmix&#9733;Template.</footer>
     </div>
   </div>
   <?php if(isset($jquery)):?><script src='<?=$jquery?>'></script><?php endif; ?>

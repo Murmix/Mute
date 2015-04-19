@@ -1,8 +1,7 @@
 Mute
 ==================
  
-Mute is a webb template for smaller websites or webbapplications using PHP.
- 
+Mute is a web template for smaller websites or web applications using PHP.
 It is built as part of a school project for Blekinge Tekniska Högskola.
  
 License 

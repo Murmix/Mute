@@ -56,6 +56,13 @@ $mute['title_append'] = ' | Murmix&#9733;Template';
  */
 $mute['stylesheets'] = array('css/style.css');
 $mute['favicon']    = 'img/favicon.png';
+
+$mute['topmenu'] = array(
+      'me'  => array('text'=>'Hello',  'url'=>'hello.php'),
+      'report'  => array('text'=>'Tom Sida',  'url'=>'empty.php'),
+      'source' => array('text'=>'404 Felsida', 'url'=>'404.php'),
+    );
+
 /**
  * Settings for JavaScript.
  *

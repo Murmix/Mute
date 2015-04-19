@@ -30,6 +30,7 @@ body {
   width: 150px;
   padding-top: 6px;
   padding-left: 39px;
+  cursor: pointer;
 } 
 
 .sitetitle {
@@ -50,13 +51,71 @@ body {
   font-size: 22px;
 }
  
+/**
+ * Layout for nav
+ */
+nav.top-menu {
+  position: absolute;
+  margin: -16px 90px;
+  padding-bottom: 20px;
+  z-index: 1000;
+}
+
+nav.top-menu a {
+  border: 9px solid black;
+  border-radius: 25px;
+  font-variant: petite-caps;
+  margin-right: 5px;
+  padding: 1px 20px;
+  text-decoration: none;
+  background: #fff;
+  color: #000;
+  font-size: 20px;
+}
+
+nav.top-menu a.selected {
+    color: #fff;
+    background: #000;
+}
+
+nav.top-menu a:hover {
+    text-shadow: -2px -2px 0 #aaa, 2px -2px 0 #aaa, -2px 2px 0 #aaa, 2px 2px 0 #aaa;    
+}
+ 
+img {
+    border:0;
+}
+
+
+#mepicture img {
+    width: 200px;
+}
+
  
 /**
  * Layout for main
  */
 #main {
+  padding-top: 20px;
   min-height: 20em;
 }
+
+/* figure & figcaption */
+figure {
+    padding:4px;
+    margin:1em;
+    text-align:center;
+}
+figcaption {
+    font-style:italic;
+    font-size:smaller;
+    padding-left:1em;
+}
+
+figure.right{margin-right:0;}
+figure.top{margin-top:0;}
+figure.fullwidth{margin-left:0;margin-right:0;}
+
  
  
 /**
@@ -71,3 +130,9 @@ body {
 .sitefooter {
   color: #666;
 }
+
+
+/* Misc classes */
+
+.right {float:right;}
+.left {float:left;}

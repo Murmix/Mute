@@ -164,7 +164,7 @@ class CDiceGame {
         
             
         if ($this->currentGameRound > 0 && $this->totalScore[$this->currentPlayerIndex] >= 100) {
-            $this->extraInfoText = "Grattis, du klarade spelet på $this->currentGameRound omgångar.";
+            $this->extraInfoText = "Grattis, du vann!!!";
             $this->setCurrentGameRound(-1);
         } else {
         

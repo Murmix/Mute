@@ -19,7 +19,7 @@
     <?php echo CNavigation::GenerateMenu($topmenu, 'top-menu'); ?>      
     <div id='main'><?=$main?></div>
     <div id='footer'>
-      <footer>Copyright &copy; 2015. Powered by Mute: Murmix&#9733;Template.</footer>
+      <footer>Copyright &copy; 2015. Powered by Mute: Murmix&#9733;Template. <a href="https://github.com/Murmix/Mute">Mute on GitHub</a></footer>
     </div>
   </div>
   <div style="display:none;"><p><code>$_SESSION</code> innehåller följande:</p><pre><?php print_r($_SESSION); ?></pre></div>

@@ -22,6 +22,7 @@
       <footer>Copyright &copy; 2015. Powered by Mute: Murmix&#9733;Template.</footer>
     </div>
   </div>
+  <div style="display:none;"><p><code>$_SESSION</code> innehåller följande:</p><pre><?php print_r($_SESSION); ?></pre></div>
   <?php if(isset($jquery)):?><script src='<?=$jquery?>'></script><?php endif; ?>
   <?php if(isset($javascript_include)): foreach($javascript_include as $val): ?>
     <script src='<?=$val?>'></script>

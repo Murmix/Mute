@@ -147,10 +147,8 @@ class CDiceGame {
     private function computerPlayerRollsDice() {
         $rollValue = $this->rollDice();
         while($rollValue > 1) {
-            if (rand(1,5) != 5) //20% chance for computer to decide to quit every throw
-                $rollValue = $this->rollDice();
-            else
-                return;
+            if (rand(1,4) === 1) return; //25% chance for computer to decide to quit every throw
+            $rollValue = $this->rollDice();
         }
     }
     
@@ -164,7 +162,7 @@ class CDiceGame {
         
             
         if ($this->currentGameRound > 0 && $this->totalScore[$this->currentPlayerIndex] >= 100) {
-            $this->extraInfoText = "Grattis, du vann!!!";
+            $this->extraInfoText = "Grattis, du vann!";
             $this->setCurrentGameRound(-1);
         } else {
         
